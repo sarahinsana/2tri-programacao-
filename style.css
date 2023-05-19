@@ -1,11 +1,34 @@
 :root {
     --cor-de-fundo: rgb(175, 178, 211);
+    --cor-header: rgb(235, 238, 245);
+    --cor-header2: rgb(123, 130, 194);
 }
 
 body {
     background-color: var(--cor-de-fundo);
 }
 
-h1 {
-    background-color: white;
+.header {
+    background-color: var(--cor-header);
+}
+
+.header-title {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
+}
+
+.header-menu {
+    background-color: var(--cor-header2);
+}
+
+.header-menu-item {
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-top: 1px solid;
 }
